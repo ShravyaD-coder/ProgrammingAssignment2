@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 ##Program to find inverse of matrix 
+
+##makeCacheMatrix caches the given matrix
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
   set<-function(y){
@@ -20,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+##cacheSolve solves and finds the inverse of the matrix
 cacheSolve <- function(x, ...) {
   m<-x$getinv()
   if(!is.null(m)){
