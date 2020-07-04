@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
- 
+##Program to find inverse of matrix 
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
   set<-function(y){
